@@ -19,3 +19,25 @@ A Flutter application that displays a list of countries, allows users to search,
 
 ## 🏛️ Project Architecture
 
+lib/
+└── src/
+├── data/
+│ ├── models/
+│ │ └── country_model.dart
+│ └── services/
+│ ├── country_service.dart
+│ ├── favorites_service.dart
+│ └── theme_service.dart
+├── logic/
+│ └── cubits/
+│ ├── countries_cubit.dart
+│ ├── country_detail_cubit.dart
+│ ├── favorites_cubit.dart
+│ └── theme_cubit.dart
+└── presentation/
+├── screens/
+│ ├── home_screen.dart
+│ ├── country_detail_screen.dart
+│ └── favorites_screen.dart
+└── widgets/
+└── shimmer_list.dart
