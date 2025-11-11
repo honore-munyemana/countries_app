@@ -110,7 +110,9 @@ flutter run
 ##  Developer
 
 Name: Honore Munyemana
+
 Email: honoremushya@gmail.com
+
 GitHub: https://github.com/honore-munyemana
 
 
