@@ -17,7 +17,7 @@ A Flutter application that displays a list of countries, allows users to search,
 
 ---
 
-## 🏛️ Project Architecture
+##  Project Architecture
 
 lib/
 
@@ -62,4 +62,55 @@ lib/
 └── widgets/
 
 └── shimmer_list.dart
+
+---
+
+The project follows **Clean Architecture + BLoC** for scalable structure.
+
+---
+
+## 🛠️ Technologies & Tools Used
+
+- **Flutter**: 3.x or later
+- **Dart**: ≥2.17
+- **State Management**: `flutter_bloc`
+- **Local Persistence**: `SharedPreferences`
+- **HTTP Networking**: `http` package
+- **UI/UX Enhancements**: Shimmer loading, responsive layouts
+
+---
+
+##  How to Run the Project
+
+### 1. **Clone the Repository**
+```bash
+git clone https://github.com/honore-munyemana/countries_app.git
+cd countries_app
+```
+### 2. **Install Dependencies**
+```
+flutter pub get
+```
+### 3. Run the App
+
+```
+flutter run
+```
+##  Supported Platforms
+
+| Platform                  | Status                               |
+| ------------------------- | ------------------------------------ |
+| Android                   | ✅ Fully tested                       |
+| iOS                       | ⚠️ Runs, but requires macOS to build |
+| Web                       | ✅ Works in Chrome                    |
+| Windows/Linux/Mac Desktop | ✅ Flutter-supported desktop build    |
+
+---
+
+##  Developer
+
+Name: Honore Munyemana
+Email: honoremushya@gmail.com
+GitHub: https://github.com/honore-munyemana
+
 
