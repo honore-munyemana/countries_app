@@ -1,16 +1,21 @@
-# countries_app
+#  Countries Explorer App
 
-A new Flutter project.
+A Flutter application that displays a list of countries, allows users to search, view details, and save favorites. The project uses modern Flutter architecture with **BLoC (Cubit)** state management and supports **light/dark theme switching** and **favorites persistence** using local storage.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+| Feature | Description |
+|--------|-------------|
+| Fetch Countries | Loads country data from REST Countries API (`https://restcountries.com/v3.1/all`) |
+| Search | Real-time search by country name |
+| Country Details | Shows country flag, capital, region, population and other info |
+| Favorites | Users can mark countries as favorites and stored locally |
+| Theme Mode | Switch between Light and Dark mode |
+| Shimmer Loading | Smooth loading animation while fetching data |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏛️ Project Architecture
+
