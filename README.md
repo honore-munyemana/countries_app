@@ -69,7 +69,7 @@ The project follows **Clean Architecture + BLoC** for scalable structure.
 
 ---
 
-## 🛠️ Technologies & Tools Used
+##  Technologies & Tools Used
 
 - **Flutter**: 3.x or later
 - **Dart**: ≥2.17
@@ -100,10 +100,10 @@ flutter run
 
 | Platform                  | Status                               |
 | ------------------------- | ------------------------------------ |
-| Android                   | ✅ Fully tested                       |
-| iOS                       | ⚠️ Runs, but requires macOS to build |
-| Web                       | ✅ Works in Chrome                    |
-| Windows/Linux/Mac Desktop | ✅ Flutter-supported desktop build    |
+| Android                   | Fully tested                       |
+| iOS                       |  Runs, but requires macOS to build |
+| Web                       |  Works in Chrome                    |
+| Windows/Linux/Mac Desktop |  Flutter-supported desktop build    |
 
 ---
 
